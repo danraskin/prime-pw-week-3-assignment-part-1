@@ -58,7 +58,7 @@ console.log('The animals are now', animalArray);
 // 4.b. TODO: Remove the food at the end of your array & 
 //      log both the food removed and the updated array
     let badIngredient = marinadeSalmon.pop();
-    console.log(`Way too spicy. Take out the ${badIngredient}`); //this is another way to log removed item; problem with this that it old item is unrecoverable
+    console.log(`Way too spicy. Take out the ${badIngredient}`);
     console.log('Back to the original: ', marinadeSalmon);
 
 // Example: Add an animal to the beginning using Array.unshift
